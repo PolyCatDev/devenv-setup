@@ -81,3 +81,5 @@ elif [[ $ADW_ANSWER == "y" && $VS = "y" ]]; then
 	makepkg -si
 	cd .. && rm -rf adw-gtk3
 fi
+
+echo -e "\e[32mDev Environment Setup Done\e[0m"
