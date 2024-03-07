@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=distrobox-enter DevArch -- codium
+Icon=/home/polycat/.local/share/icons/desktop/vscodium.png
+Name=VSCodium
