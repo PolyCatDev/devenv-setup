@@ -8,3 +8,4 @@ I like using DistroBox Containers for Dev Environments and I wanted a script to 
 - [x] Arch Linux
 - [ ] Debian
 - [ ] Fedora
+- [ ] CentOS
