@@ -1,6 +1,10 @@
 # What is this?
-This is a repo where I archive all my automation scripts for everyone to use.
+It's a script that sets up Linux Development Environments.
 
-# What can I find here?
-Currently there is only a bash script that automates the setup of a Arch Linux Development Environment but I will add more in the future.
+# But why?
+I like using DistroBox Containers for Dev Environments and I wanted a script to quickly set things up
 
+# To do
+- [x] Arch Linux
+- [ ] Debian
+- [ ] Fedora
