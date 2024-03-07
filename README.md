@@ -4,10 +4,13 @@ It's a script that sets up Linux Development Environments. This script is mainly
 # But why?
 I like using DistroBox Containers for Dev Environments and I wanted a script to quickly set things up.
 
+# Contributing
+Bug reports, feature requests and PRs are welcome.
+
 # To do
 - [x] Arch Linux
 - [ ] Debian
 - [ ] Fedora
 
-### Requests
+### Requests from friends :)
 - [ ] CentOS
