@@ -82,4 +82,5 @@ elif [[ $ADW_ANSWER == "y" && $VS = "y" ]]; then
 	cd .. && rm -rf adw-gtk3
 fi
 
+# Prints out the finnal message of the script
 echo -e "\e[32mDev Environment Setup Done\e[0m"
