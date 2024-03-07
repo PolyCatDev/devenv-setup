@@ -1,2 +1,2 @@
-# What is the media folder?
-It stores some files I plan to integrate in my Dev Enviroment setup script.
+# What is this folder?
+It stores some files I plan to integrate in the script.
