@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Initial prompt with help flax exception
+# Initial prompt with help flag exception
 if [[ $1 != "-h" ]]; then
     read -p "Make sure you entered everything correctly. Do you wish to continue? (y/n) " INIT_ANSWER
     INIT_ANSWER=$(echo "$INIT_ANSWER" | tr '[:upper:]' '[:lower:]')
