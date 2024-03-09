@@ -6,7 +6,7 @@ I like using DistroBox Containers for Dev Environments and I wanted a script to 
 
 # Syntax
 ```bash
-./devenv-setup _distro_
+./devenv-setup *distro*
 ``` 
 
 ### Example
