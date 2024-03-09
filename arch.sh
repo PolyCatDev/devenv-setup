@@ -7,6 +7,7 @@ sudo pacman -S --noconfirm base-devel git
 
 # Asks for extra tools
 read -p "Do you want fancy tools (vim, nano, micro, lsd, bat, tmux)? (y/n) " FANCY_ANSWER
+FANCY_ANSWER=$(echo "$FANCY_ANSWER" | tr '[:upper:]' '[:lower:]')
 
 if [[ $FANCY_ANSWER == "y" ]]; then
 	sudo pacman -S --noconfirm nano micro vim lsd bat tmux
@@ -15,6 +16,7 @@ fi
 
 # Asks for Yay package manager
 read -p "Do you want the yay package manager? (y/n) " YAY_ANSWER
+YAY_ANSWER=$(echo "$YAY_ANSWER" | tr '[:upper:]' '[:lower:]')
 
 if [[ $YAY_ANSWER == "y" ]]; then
 	git clone https://aur.archlinux.org/yay.git
@@ -26,7 +28,7 @@ fi
 
 # Asks for VSCode/VSCodium and installs it thru yay or makepkg depending on previous entry
 read -p "Do you want VSCodium, VSCode or none? (a/b/n) " VS_ANSWER
-
+VS_ANSWER=$(echo "$VS_ANSWER" | tr '[:upper:]' '[:lower:]')
 
 if [[ $VS_ANSWER == "a" && $YAY_ANSWER == "y" ]]; then
 	VS="y"
@@ -63,6 +65,7 @@ if [[ $VS = "y" ]]; then
 	echo "Do you want adw-gtk3 theme?"
 	read -p "This will theme the gtk parts of VSCode/VSCodium in a simple dark theme. (y/n) " ADW_ANSWER
 fi
+ADW_ANSWER=$(echo "$ADW_ANSWER" | tr '[:upper:]' '[:lower:]')
 
 if [[ $ADW_ANSWER == "y" && $YAY_ANSWER == "y" && $VS == "y" ]]; then
 	yay -S adw-gtk3 --noconfirm
