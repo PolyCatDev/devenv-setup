@@ -6,12 +6,12 @@ I like using DistroBox Containers for Dev Environments and I wanted a script to 
 
 # Syntax
 ```bash
-./devenv-setup *distro*
+./devenv-setup *--distro*
 ``` 
 
 ### Example
 ```bash
-./devenv-setup arch
+./devenv-setup --arch
 ```
 
 ### ATTENTION
