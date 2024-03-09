@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Initial prompt
+echo -e "\e[31mATTENTION: All answers must be lowercase!\e[0m"
+read -p "This script is made for Arch Linux environments. Do you wish to continue? (y/n) " INIT_ANSWER
+
+if [[ $INIT_ANSWER != "y" ]]; then
+	exit
+fi
+
+
 # Installs necessary packages
 echo -e "\e[32mInstalling needed Tools\e[0m"
 sudo pacman -S --noconfirm base-devel git
