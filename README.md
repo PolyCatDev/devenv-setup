@@ -14,6 +14,12 @@ I like using DistroBox Containers for Dev Environments and I wanted a script to 
 ./devenv-setup --arch
 ```
 
+### Help
+I added a help flag:
+```bash
+./devenv-setup -h
+```
+
 ### ATTENTION
 Only Arch Linux is supported currently!
 
