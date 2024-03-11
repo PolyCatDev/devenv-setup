@@ -14,7 +14,7 @@ I like using DistroBox Containers for Dev Environments and I wanted a script to 
 ./devenv-setup --arch
 ```
 
-### Help
+# Help
 ```bash
 ./devenv-setup -h
 ```
