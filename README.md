@@ -15,7 +15,6 @@ I like using DistroBox Containers for Dev Environments and I wanted a script to 
 ```
 
 ### Help
-I added a help flag:
 ```bash
 ./devenv-setup -h
 ```
