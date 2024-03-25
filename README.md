@@ -34,4 +34,4 @@ Bug reports, feature requests and PRs are welcome.
 - [ ] CentOS
 
 # How it looks
-![devenv setup demo gif](https://github.com/PolyCatDev/PolyCatDev/blob/main/dev-env-demo.gif)
+![devenv setup demo gif](https://codeberg.org/PolyCat/devenv-setup/src/branch/main/media/dev-env-demo.gif)
