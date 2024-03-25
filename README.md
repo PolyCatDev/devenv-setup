@@ -1,3 +1,6 @@
+# !ATTENTION!
+The project has been migrated over to [CodeBerg](https://codeberg.org/PolyCat/devenv-setup)
+
 # What is this?
 It's a collection of scripts that set up Linux Development Environments.
 
