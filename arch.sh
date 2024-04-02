@@ -6,11 +6,11 @@ sudo pacman -S --noconfirm base-devel git
 
 
 # Asks for extra tools
-read -p "Do you want fancy tools (vim, nano, micro, lsd, bat, tmux)? (y/n) " FANCY_ANSWER
+read -p "Do you want fancy tools (vim, nvim, nano, micro, lsd, bat, tmux)? (y/n) " FANCY_ANSWER
 FANCY_ANSWER=$(echo "$FANCY_ANSWER" | tr '[:upper:]' '[:lower:]')
 
 if [[ $FANCY_ANSWER == "y" ]]; then
-	sudo pacman -S --noconfirm nano micro vim lsd bat tmux
+	sudo pacman -S --noconfirm nano micro vim neovim lsd bat tmux
 fi
 
 
